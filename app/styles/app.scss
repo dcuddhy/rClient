@@ -1,0 +1,85 @@
+@import "colors";
+
+html{
+  font-family: 'Laila', serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.container{
+  padding: 0 15px 0 15px;
+}
+
+.navbar, .header{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: white;
+  padding: 10px 15px 10px 15px;
+}
+
+.navbar{
+  font-size: 32px;
+  background: $navBlue;
+}
+
+.header{
+  font-size: 24px;
+  background: $headerBlue;
+}
+
+.new-button{
+  background: white;
+  color: $buttonGreen;
+  padding: 9px 13px;
+  display: inline;
+  float: right;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  margin: -5px;
+  transition-duration: .25s;
+}
+
+.new-button:hover{
+  background: $buttonGreen;
+  color: white;
+}
+
+.body-button{
+  background: $buttonGreen;
+  color: white;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  transition-duration: .25s;
+  line-height: 2.7;
+  margin: 1px;
+  border: 1px solid white;
+
+}
+
+.body-button:hover{
+  border: 1px solid $buttonGreen;
+  background: white;
+  color: $buttonGreen;
+}
+
+.profile-pic{
+  height: 120px;
+  background-image: url("http://www.gravatar.com/avatar/undefined?s=200");
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border: 5px dashed $navBlue;
+}
+.profile-box{
+  width: 25%;
+  box-shadow: -1px 2px 1px 1px rgba(225,225,225,0.75);
+}
