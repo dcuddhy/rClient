@@ -2,6 +2,7 @@
   background: white;
   color: $buttonGreen;
   padding: 6px 13px;
+  margin-right: 15px;
   display: inline;
   float: right;
   font-size: 16px;
@@ -66,7 +67,6 @@
 .delete-button{
   background: $deleteYellow;
 }
-
 
 .body-button:hover{
   border: 1px solid $buttonGreen;
